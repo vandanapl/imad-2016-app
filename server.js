@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 var articles = {
  article_one : {
-    title : 'article one',
+    title : 'articleone',
     heading : 'one',
     date : 'smthing',
     content :`<p>
