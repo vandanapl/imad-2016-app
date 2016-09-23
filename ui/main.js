@@ -25,7 +25,7 @@ img.onclick = function()
 var button = document.getElementById('counter');
 var counter = 0;
 button.onclick = function() {
-    alert('hi');
+    
     var request = new XMLHttpRequest();
     
     request.onreadystatechange = function(){
@@ -34,6 +34,7 @@ button.onclick = function() {
             if(request.status === 200)
             {
                 var counter = request.responseText;
+                alert(counter.toString());
                  var span = document.getElementById('count');
     span.innerHTML = counter.toString();
             }
