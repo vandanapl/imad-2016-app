@@ -51,7 +51,7 @@ button.onclick = function() {
     */
 };
 
-
+ alert(hi);
 var nameInput =document.getElementById('one');
 var nameInput = nameInput.value;
 var submit = document.getElementById('two');
