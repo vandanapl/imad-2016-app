@@ -50,4 +50,9 @@ button.onclick = function() {
     span.innerHTML = counter.toString();
     */
 };
+
+
+var nameInput =document.getElementById('name');
+var name = nameInput.value;
+var submit = document
  
