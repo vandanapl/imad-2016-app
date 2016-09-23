@@ -55,6 +55,7 @@ button.onclick = function() {
 var nameInput =document.getElementById('one');
 var nameInput = nameInput.value;
 var submit = document.getElementById('two');
+ alert(hi);
 submit.onclick = function() {
     alert(hi);
     var names =['name11','name22','name33'];
