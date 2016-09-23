@@ -32,9 +32,9 @@ button.onclick = function() {
         if(request.readyState === XMLHttpRequest.DONE){
             
             if(request.status === 200)
-            {alert('Hi');
+            {
                 var counter = request.responseText;
-                alert(counter.toString());
+               
                  var span = document.getElementById('count');
     span.innerHTML = counter.toString();
             }
