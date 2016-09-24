@@ -53,11 +53,11 @@ button.onclick = function() {
 
 */
 
- alert('hi');
+ 
 var nameInput =document.getElementById('one');
 var nameInputs = nameInput.value;
 var submit = document.getElementById('two');
- alert('hi');
+ 
 submit.onclick = function() {
      
     var names =['name11','name22','name33'];
