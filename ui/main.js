@@ -57,7 +57,7 @@ var nameInputs = nameInput.value;
 var submit = document.getElementById('two');
  alert(hi);
 submit.onclick = function() {
-    alert(hi);
+     
     var names =['name11','name22','name33'];
     var list ='';
     for(var i=0; i<names.length;i++){
